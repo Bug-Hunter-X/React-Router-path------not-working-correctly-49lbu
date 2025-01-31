@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in React Router v6 where a catch-all route defined with path="/*" does not behave as expected, intercepting all unmatched routes and preventing them from being handled.  The issue is resolved by ensuring the catch-all route is placed last within the Routes component.
